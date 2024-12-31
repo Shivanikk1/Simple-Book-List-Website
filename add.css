@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+
+}
+#book {
+    margin-left: 30%;
+    
+}
+label {
+    margin-bottom: 5%;
+}
+input {
+    margin-bottom: 5%;
+    margin-right: 2%;
+}
+.book-id {
+    margin-right: 5%;
+}
+button {
+    margin-left: 40%;
+    background-color: cornflowerblue;
+    color: white;
+}
+body {
+    background-image: url("library.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: #cccccc;
+}

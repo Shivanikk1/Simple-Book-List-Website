@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+
+.upd{
+    margin-left: 30%;
+}
+
+label{
+    margin-bottom: 4%;
+    color: white;
+}
+input{
+    margin-bottom: 4%;
+    padding: 1%;
+}
+body{
+    background-image: url("update.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: white;
+    height: auto;
+}
