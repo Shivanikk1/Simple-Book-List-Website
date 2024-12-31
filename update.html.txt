@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h1 style="margin-bottom: 3%;">UPDATE-BOOKS</h1>
+    <link rel="stylesheet" href="update.css">
+</head>
+
+<body>
+    <div class="upd">
+        <label style="margin-right: 6%; font-size: large;">Book-id</label>
+        <input type="text" id="Book-id" />
+
+</br>
+<label style="font-size: large;">Modified Version</label>
+<input type="text" id="version" /><br>
+
+</div>
+<button style="margin-left: 40%;color: blue;">update</button>
+</body>
+
+</html>

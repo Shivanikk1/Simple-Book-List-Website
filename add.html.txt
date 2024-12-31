@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Add-Books</title>
+        <link rel="stylesheet" href="add.css">
+        <h1>ADD-BOOKS</h1>
+    </head>
+    <body>
+        <div id="book">
+        <label style="margin-right: 0.7%;">Book-Name</label>
+        <input type="text" id="book-name"></br>
+        <label style="margin-right: 5%;">Book-id</label>
+        <input type="text" id="book-id"></br>
+        <label>Book-Version</label>
+        <input type="text" id="book-vers"></br>
+        
+    </div>
+    <button id="add">Add</button>
+    </body>
+</html>

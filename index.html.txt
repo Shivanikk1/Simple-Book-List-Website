@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK APP</title>
+    <link rel="stylesheet" href="index.css">
+   
+</head>
+<body>
+    <h1>BOOK APP</h1>
+    <button id="btn-add">ADD BOOKS</button>
+    <button id="btn-update">UPDATE BOOKS</button>
+    <button id="btn-list">LIST ALL BOOKS</button>
+
+    <script defer>
+        let add=document.getElementById("btn-add");
+        function handler(e) {
+            window.location.href="add.html";
+        }
+        add.addEventListener("click",handler);
+
+        let update=document.getElementById("btn-update");
+        function update_handler(e) {
+            window.location.href="update.html";
+        }
+        update.addEventListener("click",update_handler);
+        let list=document.getElementById("btn-list");
+        function list_handler(e) {
+            window.location.href="book list.html";
+        }
+        list.addEventListener("click",list_handler);
+        
+    </script>
+</body>
+</html>
